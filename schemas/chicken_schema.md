@@ -11,7 +11,7 @@ nav_order: 2
 ## Schema quick view
 
 | Attribute | Label | Description |
-| --- | --- | --- |
+|:---|:---|:---|
 | Age | Bird Age | age of bird in days |
 | BreastWt | Breast Weight | Breast weight in grams |
 | Farm | Farm Letter Indentifier | a letter given to the farm for identification |
