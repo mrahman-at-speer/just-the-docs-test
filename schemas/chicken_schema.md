@@ -9,6 +9,7 @@ nav_order: 2
 **Description**: Measurements of chicken gut health  
 **Classification**: CRDC:RDF40  
 ## Schema quick view
+
 | Attribute | Label | Description |
 | --- | --- | --- |
 | Age | Bird Age | age of bird in days |
@@ -18,12 +19,14 @@ nav_order: 2
 | Lipase | Lipase Content | lipase content in U/L |
 | LiveWt | Live Weight | weight in grams at 28 days |
 ## International schema information
+
 | Language | Name | Description |
 | --- | --- | --- |
 | English | Chicken gut health | Measurements of chicken gut health |
 | French | santée intestinale des poulets | Mesures de la santée intestinale des poulets |
 ## Schema details
 ### English
+
 | Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Age | false | days | Numeric | Bird Age | age of bird in days | Not a list | utf-8 |
@@ -33,6 +36,7 @@ nav_order: 2
 | Lipase | false | U/L | Numeric | Lipase Content | lipase content in U/L | Not a list | utf-8 |
 | LiveWt | false | g | Numeric | Live Weight | weight in grams at 28 days | Not a list | utf-8 |
 ### French
+
 | Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Age | false | days | Numeric | Age de l'animal | Age de l'animal compté en jours | Not a list | utf-8 |
@@ -43,6 +47,7 @@ nav_order: 2
 | LiveWt | false | g | Numeric | Poids vif | Poids vif à 28 jours en gramme | Not a list | utf-8 |
 ## Schema SAIDs
 **Capture base**: EC-qVNrv55nXKfvd-beQkiGXoeZuTSN6YPcIE49chxhQ
+
 | Layer | SAID |
 | --- | --- |
 | character_encoding | EPYbXCWHoSIUzYLUcMbQBJog2Z02fMhWMYX-Fi1dKn3c |
