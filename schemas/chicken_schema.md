@@ -1,6 +1,7 @@
 ---
 layout: default  
 title: Chicken gut health  
+nav_order: 2
 ---
 
 ## Schema information
@@ -65,4 +66,3 @@ title: Chicken gut health
 | meta (en) | Etcu0lEvw5r5voHIuhi_66UBJ1QKqNy71rVAuwM7-OJM |
 | meta (fr) | E5R3Y7Yn0bJY2fur1NK9LJy0Q6OUKU9yxQ7s583z6Pgo |
 | unit | ErEwIqjWwrrRSOGKm5ytSku3N488mQzZpTXQBu6cjJ5s |
-
