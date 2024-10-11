@@ -1,7 +1,6 @@
 ---
 layout: default  
 title: soil  
-nav_order: 3
 ---
 
 ## Schema information
@@ -44,6 +43,7 @@ nav_order: 3
 ### English
 
 #### farm entry codes
+
 | Entry code | Label |
 | --- | --- |
 | A | Hensall farm |
@@ -52,6 +52,7 @@ nav_order: 3
 | D | Lakeridge farm |
 
 #### samplers entry codes
+
 | Entry code | Label |
 | --- | --- |
 | Aedan | Aedan |
