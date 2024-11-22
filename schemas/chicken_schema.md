@@ -38,29 +38,40 @@ parent: PEAce
 | English | Chicken gut health | Measurements of chicken gut health |
 | French | santée intestinale des poulets | Mesures de la santée intestinale des poulets |
 
-## Schema details
+## Language-independent schema details
+
+| Attribute | Sensitive | Unit | Type | Character encoding |
+| --- | --- | --- | --- | --- |
+| age | false | day | Numeric | utf-8 |
+| breast_wt | false | g | Numeric | utf-8 |
+| farm | false |  | Text | utf-8 |
+| glucose | false | mmol/L | Numeric | utf-8 |
+| lipase | false | U/L | Numeric | utf-8 |
+| live_wt | false | g | Numeric | utf-8 |
+
+## Language-specific schema details
 
 ### English
 
-| Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| age | false | day | Numeric | Bird Age | Age of bird in days | Not a list | utf-8 |
-| breast_wt | false | g | Numeric | Breast Weight | Breast weight in grams | Not a list | utf-8 |
-| farm | false |  | Text | Farm Letter Indentifier | a letter given to the farm for identification | Not a list | utf-8 |
-| glucose | false | mmol/L | Numeric | Glucose Concentration | glucose content in mmol/L | Not a list | utf-8 |
-| lipase | false | U/L | Numeric | Lipase Content | lipase content in U/L | Not a list | utf-8 |
-| live_wt | false | g | Numeric | Live Weight | weight in grams at 28 days | Not a list | utf-8 |
+| Attribute | Label | Description | List |
+| --- | --- | --- | --- |
+| age | Bird Age | Age of bird in days | Not a list |
+| breast_wt | Breast Weight | Breast weight in grams | Not a list |
+| farm | Farm Letter Indentifier | a letter given to the farm for identification | Not a list |
+| glucose | Glucose Concentration | glucose content in mmol/L | Not a list |
+| lipase | Lipase Content | lipase content in U/L | Not a list |
+| live_wt | Live Weight | weight in grams at 28 days | Not a list |
 
 ### French
 
-| Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| age | false | day | Numeric | Age de l'animal | Age de l'animal compté en jours | Not a list | utf-8 |
-| breast_wt | false | g | Numeric | Poids de la poitrine | Poids de la poitrine en gramme | Not a list | utf-8 |
-| farm | false |  | Text | Lettre itenditifant la ferme | Letter assignee a chaque ferme pour identification | Not a list | utf-8 |
-| glucose | false | mmol/L | Numeric | Concentration de glucose | Concentration de glucose en mmol/L | Not a list | utf-8 |
-| lipase | false | U/L | Numeric | Concentration de lipase | Concentration de glucose en U/L | Not a list | utf-8 |
-| live_wt | false | g | Numeric | Poids vif | Poids vif à 28 jours en gramme | Not a list | utf-8 |
+| Attribute | Label | Description | List |
+| --- | --- | --- | --- |
+| age | Age de l'animal | Age de l'animal compté en jours | Not a list |
+| breast_wt | Poids de la poitrine | Poids de la poitrine en gramme | Not a list |
+| farm | Lettre itenditifant la ferme | Letter assignee a chaque ferme pour identification | Not a list |
+| glucose | Concentration de glucose | Concentration de glucose en mmol/L | Not a list |
+| lipase | Concentration de lipase | Concentration de glucose en U/L | Not a list |
+| live_wt | Poids vif | Poids vif à 28 jours en gramme | Not a list |
 
 ## Schema SAIDs
 
@@ -77,5 +88,5 @@ parent: PEAce
 | meta (fr) | EbyRBgqioQjt3XV2RidGdyeeYi3dgT2nlKXhMH8V-LAk |
 | unit | EbmbDrBP_eQrBfoLwZbpXWNrj3nd19HzBpJlRJkxVcBA |
 
-**Date created**: 2024-11-21 20:33:45
+**Date created**: 2024-11-21 21:19:38
 
