@@ -1,13 +1,24 @@
 ---
 layout: default  
 title: soil  
+parent: PEAce  
 ---
 
-## Schema information
+# Schema information
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 **Name**: soil  
 **Description**: A schema describing soil samples together with water content measurements.  
 **Classification**: RDF401  
+**Author**: Test Author  
+**Author Email**: test123@example.com  
+**ICT Group**: PEAce  
 
 ## Schema quick view
 
@@ -103,3 +114,6 @@ title: soil
 | label (en) | E5v2clKbavN57XXb7V-SvJD_tCAdUdMSc8MYom0ndTbM |
 | meta (en) | EXVnFBxzM8qatUMOCJbg8dK89f3BhB7RCggHzjaHQt_s |
 | unit | EuLp7LOvXjBcfwplInBR3aM2Oa-7VY3wVP2y7ReSbvok |
+
+**Date created**: 2024-11-21 20:43:43
+
