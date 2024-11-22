@@ -1,25 +1,38 @@
 ---
 layout: default  
 title: Chicken gut health  
-nav_order: 2
+parent: PEAce  
 ---
 
-## Schema information
+# Schema information
+
+{: .no_toc }
+
+## Table of Contents
+
+{: .no_toc .text-delta }
+
+1. TOC
+
+{:toc}
 
 **Name**: Chicken gut health  
 **Description**: Measurements of chicken gut health  
-**Classification**: CRDC:RDF40  
+**Classification**: RDF401  
+**Author**: Test Author  
+**Author Email**: test123@example.com  
+**ICT Group**: PEAce  
 
 ## Schema quick view
 
 | Attribute | Label | Description |
 | --- | --- | --- |
-| Age | Bird Age | age of bird in days |
-| BreastWt | Breast Weight | Breast weight in grams |
-| Farm | Farm Letter Indentifier | a letter given to the farm for identification |
-| Glucose | Glucose Concentration | glucose content in mmol/L |
-| Lipase | Lipase Content | lipase content in U/L |
-| LiveWt | Live Weight | weight in grams at 28 days |
+| age | Bird Age | Age of bird in days |
+| breast_wt | Breast Weight | Breast weight in grams |
+| farm | Farm Letter Indentifier | a letter given to the farm for identification |
+| glucose | Glucose Concentration | glucose content in mmol/L |
+| lipase | Lipase Content | lipase content in U/L |
+| live_wt | Live Weight | weight in grams at 28 days |
 
 ## International schema information
 
@@ -34,35 +47,38 @@ nav_order: 2
 
 | Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Age | false | days | Numeric | Bird Age | age of bird in days | Not a list | utf-8 |
-| BreastWt | false | g | Numeric | Breast Weight | Breast weight in grams | Not a list | utf-8 |
-| Farm | false |  | Text | Farm Letter Indentifier | a letter given to the farm for identification | Not a list | utf-8 |
-| Glucose | false | mmol/L | Numeric | Glucose Concentration | glucose content in mmol/L | Not a list | utf-8 |
-| Lipase | false | U/L | Numeric | Lipase Content | lipase content in U/L | Not a list | utf-8 |
-| LiveWt | false | g | Numeric | Live Weight | weight in grams at 28 days | Not a list | utf-8 |
+| age | false | day | Numeric | Bird Age | Age of bird in days | Not a list | utf-8 |
+| breast_wt | false | g | Numeric | Breast Weight | Breast weight in grams | Not a list | utf-8 |
+| farm | false |  | Text | Farm Letter Indentifier | a letter given to the farm for identification | Not a list | utf-8 |
+| glucose | false | mmol/L | Numeric | Glucose Concentration | glucose content in mmol/L | Not a list | utf-8 |
+| lipase | false | U/L | Numeric | Lipase Content | lipase content in U/L | Not a list | utf-8 |
+| live_wt | false | g | Numeric | Live Weight | weight in grams at 28 days | Not a list | utf-8 |
 
 ### French
 
 | Attribute | Sensitive | Unit | Type | Label | Description | List | Character encoding |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Age | false | days | Numeric | Age de l'animal | Age de l'animal compté en jours | Not a list | utf-8 |
-| BreastWt | false | g | Numeric | Poids de la poitrine | Poids de la poitrine en gramme | Not a list | utf-8 |
-| Farm | false |  | Text | Lettre itenditifant la ferme | Letter assignee a chaque ferme pour identification | Not a list | utf-8 |
-| Glucose | false | mmol/L | Numeric | Concentration de glucose | Concentration de glucose en mmol/L | Not a list | utf-8 |
-| Lipase | false | U/L | Numeric | Concentration de lipase | Concentration de glucose en U/L | Not a list | utf-8 |
-| LiveWt | false | g | Numeric | Poids vif | Poids vif à 28 jours en gramme | Not a list | utf-8 |
+| age | false | day | Numeric | Age de l'animal | Age de l'animal compté en jours | Not a list | utf-8 |
+| breast_wt | false | g | Numeric | Poids de la poitrine | Poids de la poitrine en gramme | Not a list | utf-8 |
+| farm | false |  | Text | Lettre itenditifant la ferme | Letter assignee a chaque ferme pour identification | Not a list | utf-8 |
+| glucose | false | mmol/L | Numeric | Concentration de glucose | Concentration de glucose en mmol/L | Not a list | utf-8 |
+| lipase | false | U/L | Numeric | Concentration de lipase | Concentration de glucose en U/L | Not a list | utf-8 |
+| live_wt | false | g | Numeric | Poids vif | Poids vif à 28 jours en gramme | Not a list | utf-8 |
 
 ## Schema SAIDs
 
-**Capture base**: EC-qVNrv55nXKfvd-beQkiGXoeZuTSN6YPcIE49chxhQ
+**Capture base**: E-Zq-IiSY4-Cx5VOSJKjsFVZjULHQXUJfVbSrDPiFwAg
 
 | Layer | SAID |
 | --- | --- |
-| character_encoding | EPYbXCWHoSIUzYLUcMbQBJog2Z02fMhWMYX-Fi1dKn3c |
-| information (en) | EcRa0lpQpDevUncDJhJjMg2lXmLMB57QKv80whOOm98g |
-| information (fr) | EdINosnriasZtR3XJ0ejw1QYPp4Ao5nOAaMi4aeaH3q0 |
-| label (en) | E_fWluzuoUN8xy3OSj36yonnKCPDrNTC5VbMSHBQasSw |
-| label (fr) | Eoia9qk0EDM6LAH8zzb-gaJetVWNMLVh4BoDTZfmOf0o |
-| meta (en) | Etcu0lEvw5r5voHIuhi_66UBJ1QKqNy71rVAuwM7-OJM |
-| meta (fr) | E5R3Y7Yn0bJY2fur1NK9LJy0Q6OUKU9yxQ7s583z6Pgo |
-| unit | ErEwIqjWwrrRSOGKm5ytSku3N488mQzZpTXQBu6cjJ5s |
+| character_encoding | E7J-GKQ8gJCvIqjdwZBghyByoSo-7WGsOxdB_grldMTg |
+| information (en) | Eam0xF6SuJW6Hh_Jqq9oxXtPlqWnl_9dNmoQJ3XGZA-o |
+| information (fr) | EzLZfkqot07nrBqWR7--YHrZ3o7--86SOM19dQqRmovI |
+| label (en) | ESMUsgax-D6QWwSaxolRX6k8-Qx5NCpkBE2B4Hn1u24w |
+| label (fr) | Ecr2MIDp_sqYVau4U_l4-V1KichJJcBmvOkBitU-91bQ |
+| meta (en) | EkM8YeDYTSl2PKEHe55UpvPeUKyX94uQSXIv2bgF3EsM |
+| meta (fr) | EbyRBgqioQjt3XV2RidGdyeeYi3dgT2nlKXhMH8V-LAk |
+| unit | EbmbDrBP_eQrBfoLwZbpXWNrj3nd19HzBpJlRJkxVcBA |
+
+**Date created**: 2024-11-21 20:33:45
+
