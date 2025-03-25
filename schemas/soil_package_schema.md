@@ -166,10 +166,8 @@ title: soil
 
 ## Schema SAIDs
 
-**Capture base**: EBPlcLe2LNJD4aayAYB1Ey80tS7hnDYzh3jHhiaEmchY
-
-**Bundle**: EH6-Olk7O3iOsdK1lU098EgKQS4cfg3Cf2WL4Sa-8koc
-
+**Capture base**: EBPlcLe2LNJD4aayAYB1Ey80tS7hnDYzh3jHhiaEmchY 
+**Bundle**: EH6-Olk7O3iOsdK1lU098EgKQS4cfg3Cf2WL4Sa-8koc 
 **Package**: EDdOZC4DApIvNmA3ESv5bpbl5GnaiwjU3h7t8ypg6WtA
 
 | Layer | SAID | Type |
@@ -190,5 +188,5 @@ title: soil
 | unit | EPE7f5bSFxb3WQykN5J7P5sbfoJnNFW5pIIW4FqdCG9_ | spec/overlays/unit/1.1 |
 | ordering | EDoV6xer3KrlsjXBidJdn-zR59G2sEr7G9EPhcr5Ci33 | community/overlays/adc/ordering/1.1 |
 
-**Date created**: 2025-03-25 11:48:52
+**Date created**: 2025-03-25 11:55:55
 
